@@ -15,9 +15,9 @@ declare(strict_types=1);
 
 namespace ImaginationMedia\PaymentRequest\ViewModel;
 
-use Magento\Braintree\Gateway\Config\Config as BraintreeConfig;
-use Magento\Braintree\Gateway\Request\PaymentDataBuilder;
-use Magento\Braintree\Model\Adapter\BraintreeAdapterFactory;
+use Paypal\Braintree\Gateway\Config\Config as BraintreeConfig;
+use Paypal\Braintree\Gateway\Request\PaymentDataBuilder;
+use Paypal\Braintree\Model\Adapter\BraintreeAdapterFactory;
 use Magento\Checkout\Model\Session;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\App\ResourceConnection;
